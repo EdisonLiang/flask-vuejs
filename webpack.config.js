@@ -6,7 +6,7 @@ module.exports = {
   entry: './vue-app/main.js',
   // where to place the compiled bundle
   output: {
-    path: path.join(__dirname, 'static/js'),
+    path: path.join(__dirname, 'static/dist'),
     filename: 'build.js'
   },
   resolveLoader: {
