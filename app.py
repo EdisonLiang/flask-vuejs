@@ -1,4 +1,6 @@
+#!/usr/bin/env python
 # -*- coding:utf-8 -*-
+
 from subprocess import call
 
 from flask import Flask, render_template
