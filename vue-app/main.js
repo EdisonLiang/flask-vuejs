@@ -1,10 +1,10 @@
 import Vue from 'vue'
 import App from './components/App.vue'
 
-require('materialize-css/dist/css/materialize.css');
+require('bulma/css/bulma.css');
 
 new Vue({
-  el: 'body',
+  el: '#app-container',
   components: {
     app: App
   }

@@ -1,7 +1,9 @@
 <template>
-	<div class="app">
-		<span>Here the app</span>
-		<my-title></my-title>
+	<div class="columns">
+		<div class="column is-half is-offset-one-quarter">
+			<span>Here the app</span>
+			<my-title></my-title>
+		</div>
 	</div>
 </template>
 
